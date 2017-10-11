@@ -1,0 +1,91 @@
+---
+title: "R Notebook"
+output: html_notebook
+author: Magnus Gasslander
+email: magnus.gasslander@gmail.com
+---
+
+
+```{r}
+library(rethinking)
+data(Howell1)
+d <- Howell1
+d2 <- d[d$age >= 18,]
+```
+```{r}
+mu.list <- seq(from = 140, to = 160, length.out = 200)
+sigma.list <- seq(from = 4, to = 9, length.out = 200)
+
+post <- expand.grid(mu = mu.list, sigma = sigma.list)
+
+post$LL <- sapply(1:nrow(post), function(i) sum( dnorm(
+  d2$height,
+  mean = post$mu[i],
+  sd = post$sigma[i],
+  log = TRUE)))
+post
+
+post$prod <- post$LL + dnorm(post$mu, 178, 20, TRUE) + dunif(post$sigma, 0, 50, TRUE)
+post$prob <- exp(post$prod - max(post$prod))
+
+image_xyz(post$mu, post$sigma, post$prob)
+```
+
+```{r}
+y <- rcauchy(1e5, 0,5)
+mu <- sapply(1:length(y), function(i) sum(y[1:i])/i)
+plot(mu, type="l")
+```
+
+```{r}
+library(rethinking)
+data(Howell1)
+d <- Howell1
+d2 <- d[d$age >= 18,]
+
+flist <- alist(
+  height ~ dnorm(mu, sigma),
+  mu ~ dnorm(178, 20),
+  sigma ~ dunif(0, 50)
+)
+m4.1 <- map (flist, data = d2)
+precis(m4.1)
+
+```
+
+```{r}
+start <- list(
+  mu = mean(d2$height),
+  sigma=sd(d2$height)
+)
+```
+```{r}
+plot(d2$height ~ d2$weight)
+```
+
+
+```{r}
+set.seed(2)
+gaussian_model_1 = "
+data {
+  int<lower=1> N; // Number of data points
+  vector[N] h; // Vector of heights
+}
+parameters {
+  real<lower=0> mu; // No negative heights
+  real<lower=0> sigma; // Sigma must be >0
+}
+model {
+  h ~ normal(mu, sigma); // Likelihood
+  mu ~ normal(178, 20); // Prior
+  sigma ~ cauchy(0, 1); // Prior
+}
+"
+gaussian_model_1_data = list(
+  "N" = dim(d2)[1],
+  "h" = d2$height
+)
+gaussian_model_1_fit <- stan(model_code = gaussian_model_1, data =
+gaussian_model_1_data)
+print(gaussian_model_1_fit)
+```

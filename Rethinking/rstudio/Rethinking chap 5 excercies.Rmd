@@ -1,0 +1,398 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+
+## 5E1
+
+2 and 4
+
+(3 is a single linear model with the predictor as the difference between x)
+
+## 5E2
+
+L = latitude
+D = diversity
+
+$$y_i \thicksim Normal(\mu, \sigma)$$
+
+$$\mu = \alpha + \beta_L * L_i + \beta_D * D_i$$
+5E3
+
+F = funding
+S = Size
+
+$$y_i \thicksim Normal(\mu, \sigma)$$
+$$\mu = \alpha + \beta_F * F_i + \beta_S * S_i$$
+
+$$\beta_F$$ and $$\beta_S$$
+5E4
+
+(categorical variables)
+
+5M1
+
+(suprious correlation)
+
+5M2
+
+(Masked relationship)
+
+5M3
+
+fire risk - firefighters
+
+5M4
+```{r}
+library(dplyr)
+library(rethinking)
+lds <- read.csv("lds_states.csv")
+lds <- select(lds, one_of(c("State","LDS"))) %>%
+  mutate(lds_num = as.numeric(sub("%", "", LDS)))
+
+
+data(WaffleDivorce)
+d <- WaffleDivorce %>%
+  inner_join(lds, by=c("Location" = "State")) %>%
+  select(one_of(c("Divorce", "Loc", "MedianAgeMarriage", "Marriage", "lds_num")))
+
+
+d$lds_num.s <- (d$lds_num - mean(d$lds_num)) / sd(d$lds_num)
+d$MedianAgeMarriage.s <- (d$MedianAgeMarriage - mean(d$MedianAgeMarriage)) / sd(d$MedianAgeMarriage)
+d$Marriage.s <- (d$Marriage - mean(d$Marriage)) / sd (d$Marriage)
+
+m5m4 <- map(
+  alist (
+    Divorce ~ dnorm(mu, sigma),
+    mu <- a + beta_lds*lds_num.s + beta_a*MedianAgeMarriage.s + beta_m*Marriage.s,
+    a ~ dnorm(0,10),
+    beta_lds ~ dnorm(0,1),
+    beta_a ~ dnorm(0,1),
+    beta_m ~ dnorm(0,1),
+    sigma ~ dunif(0,10)
+  ),
+  data = d
+)
+
+m5m4x2 <- map(
+  alist (
+    Divorce ~ dnorm(mu, sigma),
+    mu <- a + beta_lds*lds_num + beta_a*MedianAgeMarriage + beta_m*Marriage,
+    a ~ dnorm(0,100),
+    beta_lds ~ dnorm(0,10),
+    beta_a ~ dnorm(0,10),
+    beta_m ~ dnorm(0,10),
+    sigma ~ dunif(0,10)
+  ),
+  data = d
+)
+
+
+```
+$$divorce \thicksim alpha + \beta_m*marriage.s + \beta_a*medianAgeMarriage.s + \beta_l_d_s*pct_L_D_S  + 1$$
+```{r}
+precis(m5m4)
+```
+
+```{r}
+precis(m5m4x2)
+```
+
+```{r}
+A.avg <- mean(d$MedianAgeMarriage.s)
+L.avg <- mean(d$lds_num.s)
+M.avg <- mean(d$Marriage.s)
+R.seq <- seq(from = -6, to = 6, length.out = 30)
+
+pred.data.A <- data.frame(MedianAgeMarriage.s = R.seq, lds_num.s = L.avg, Marriage.s = M.avg)
+pred.data.L <- data.frame(MedianAgeMarriage.s = A.avg, lds_num.s = R.seq, Marriage.s = M.avg)
+pred.data.M <- data.frame(MedianAgeMarriage.s = A.avg, lds_num.s = L.avg, Marriage.s = R.seq)
+
+mu.A <- link(m5m4, data = pred.data.A)
+mu.mean.A <- apply(mu.A, 2, mean)
+mu.PI.A <- apply(mu.A, 2, PI)
+mu.L <- link(m5m4, data = pred.data.L)
+mu.mean.L <- apply(mu.L, 2, mean)
+mu.PI.L <- apply(mu.L, 2, PI)
+mu.M <- link(m5m4, data = pred.data.M)
+mu.mean.M <- apply(mu.M, 2, mean)
+mu.PI.M <- apply(mu.M, 2, PI)
+
+R.sim.A <- sim(m5m4, data = pred.data.A, n= 1e4)
+R.sim.L <- sim(m5m4, data = pred.data.L, n= 1e4)
+R.sim.M <- sim(m5m4, data = pred.data.M, n= 1e4)
+
+R.PI.A <- apply(R.sim.A, 2, PI)
+R.PI.L <- apply(R.sim.L, 2, PI)
+R.PI.M <- apply(R.sim.M, 2, PI)
+
+```
+```{r}
+plot(Divorce ~ Marriage.s, data = d, type = "n")
+mtext("lds_num.s = 0 and MedianAgeMarriage.s = 0")
+lines(R.seq, mu.mean.M)
+shade(mu.PI.M, R.seq)
+shade(R.PI.M, R.seq)
+```
+```{r}
+plot(Divorce ~ MedianAgeMarriage.s, data = d, type = "n")
+mtext("lds_num.s = 0 and Marriage.s = 0")
+lines(R.seq, mu.mean.A)
+shade(mu.PI.A, R.seq)
+shade(R.PI.A, R.seq)
+```
+```{r}
+plot(Divorce ~ lds_num.s, data = d, type = "n")
+mtext("Marriage.s = 0 and MedianAgeMarriage.s = 0")
+lines(R.seq, mu.mean.L)
+shade(mu.PI.L, R.seq)
+shade(R.PI.L, R.seq)
+```
+
+
+
+5M5
+
+price gas -> obesity
+
+
+
+
+ should be positive
+
+
+
+5H1
+```{r}
+library(rethinking)
+data(foxes)
+hist(foxes$avgfood)
+```
+
+$$weight \thicksim N(\mu, \sigma)$$ 
+$$\mu = \alpha + \beta*T_s$$
+
+$$\alpha \thicksim N(0,1)$$
+$$\beta \thicksim N(0,1)$$
+
+$$\sigma \thicksim N(0,1)$$
+
+```{r}
+
+foxes$area.s <- (foxes$area - mean(foxes$area)) / sd(foxes$area)
+foxes$groupsize.s <- (foxes$groupsize - mean(foxes$groupsize)) / sd(foxes$groupsize)
+foxes$avgfood.s <- (foxes$avgfood - mean(foxes$avgfood)) / sd(foxes$avgfood)
+
+
+m5h1.1 <- map(
+  alist (
+    weight ~ dnorm(mu, sigma),
+    mu <- a + b_a*area.s,
+    a ~ dnorm(5,10),
+    b_a ~ dnorm(0,1),
+    sigma ~ dnorm(0,1)
+  ),
+  data = foxes
+)
+```
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+```{r}
+precis(m5h1.1)
+```
+
+```{r}
+
+MAM.seq <- seq(from = -3, to = 3, length.out = 30)
+plot(weight ~ area.s, data = foxes, col = rangi2)
+
+mu <- link(m5h1.1, data = data.frame(area.s = MAM.seq))
+mu.PI <- apply(mu, 2, PI)
+abline(m5h1.1)
+shade(mu.PI, MAM.seq)
+```
+
+```{r}
+
+
+m5h1.2 <- map(
+  alist (
+    weight ~ dnorm(mu, sigma),
+    mu <- a + b_gs*groupsize.s,
+    a ~ dnorm(5,10),
+    b_gs ~ dnorm(0,1),
+    sigma ~ dnorm(0,1)
+  ),
+  data = foxes
+)
+```
+
+```{r}
+precis(m5h1.2)
+coef(m5h1.2)["a"]
+
+```
+
+```{r}
+
+MAM.seq <- seq(from = -3, to = 3, length.out = 116)
+plot(weight ~ groupsize.s, data = foxes, col = rangi2)
+
+mu <- link(m5h1.2, data = data.frame(groupsize.s = MAM.seq))
+mu.PI <- apply(mu, 2, PI)
+abline(m5h1.2)
+shade(mu.PI, MAM.seq)
+```
+
+```{r}
+precis(m5h1.2)
+```
+
+```{r}
+ggplot(data = foxes, aes(x = MAM.seq)) + geom_point(aes( groupsize.s, weight, color=area.s)) + 
+  geom_abline(intercept = coef(m5h1.2)['a'], slope = coef(m5h1.2)['Ts']) +
+  geom_ribbon(aes(ymin = mu.PI[1,], ymax = mu.PI[2,]), alpha = 0.1)
+```
+
+
+
+5H2
+```{r}
+m5h2 <- map(
+  alist (
+    weight ~ dnorm(mu, sigma),
+    mu <- a + b_a*area.s + b_gs* groupsize.s,
+    a ~ dnorm(5,10),
+    b_a ~ dnorm(0,1),
+    b_gs ~ dnorm(0,1),
+    sigma ~ dnorm(0,1)
+  ),
+  data = foxes
+)
+```
+```{r}
+precis(m5h2)
+```
+```{r}
+A.avg <- mean(foxes$area.s)
+R.seq <- seq(from = -3, to = 3, length.out = 30)
+pred.data <- data.frame(groupsize.s = R.seq, area.s = A.avg )
+
+mu <- link(m5h2, data = pred.data)
+mu.mean <- apply(mu, 2, mean)
+mu.PI <- apply(mu, 2, PI)
+
+R.sim <- sim(m5h2, data = pred.data, n = 1e4)
+
+R.PI <- apply(R.sim, 2, PI)
+
+plot(weight ~ groupsize.s, data = foxes, type = "n")
+
+lines(R.seq, mu.mean)
+mtext("area.s = 0")
+
+shade(mu.PI, R.seq)
+shade(R.PI, R.seq)
+```
+```{r}
+A.avg <- mean(foxes$groupsize.s)
+R.seq <- seq(from = -3, to = 3, length.out = 30)
+pred.data <- data.frame(area.s = R.seq, groupsize.s = A.avg )
+
+mu <- link(m5h2, data = pred.data)
+mu.mean <- apply(mu, 2, mean)
+mu.PI <- apply(mu, 2, PI)
+
+R.sim <- sim(m5h2, data = pred.data, n = 1e4)
+
+R.PI <- apply(R.sim, 2, PI)
+
+plot(weight ~ area.s, data = foxes, type = "n")
+
+lines(R.seq, mu.mean)
+mtext("groupsize.s = 0")
+
+
+shade(mu.PI, R.seq)
+shade(R.PI, R.seq)
+```
+
+
+Weight is negatively correlated with groupsize and positively correlated with area. This means that they may have a masked relationship.
+
+
+5H3
+```{r}
+m5h3.1 <- map(
+  alist (
+    weight ~ dnorm(mu, sigma),
+    mu <- a + b_gs * groupsize.s + b_f * avgfood.s,
+    a ~ dnorm(5,10),
+    b_f ~ dnorm(0,1),
+    b_gs ~ dnorm(0,1),
+    sigma ~ dnorm(0,10)
+  ),
+  data = foxes
+)
+
+
+```
+
+```{r}
+m5h3.2 <- map(
+  alist (
+    weight ~ dnorm(mu, sigma),
+    mu <- a + b_a * area.s + b_gs * groupsize.s + b_f * avgfood.s,
+    a ~ dnorm(5,10),
+    b_a ~ dnorm(0,1),
+    b_f ~ dnorm(0,1),
+    b_gs ~ dnorm(0,1),
+    sigma ~ dnorm(0,10)
+  ),
+  data = foxes
+)
+```
+```{r}
+m5h3.3 <- map(
+  alist (
+    weight ~ dnorm(mu, sigma),
+    mu <- a + b_a * area.s + b_f * avgfood.s,
+    a ~ dnorm(5,10),
+    b_a ~ dnorm(0,1),
+    b_f ~ dnorm(0,1),
+    sigma ~ dnorm(0,10)
+  ),
+  data = foxes
+)
+```
+
+
+```{r}
+plot(precis(m5h3.2))
+```
+```{r}
+plot(precis(m5h3.1))
+```
+```{r}
+plot(precis(m5h3.3))
+```
+
+```{r}
+plot(area.s ~avgfood.s, data = foxes)
+```
+```{r}
+pairs(~ area.s + groupsize.s + avgfood.s, data = foxes, col = rangi2)
+```
+```{r}
+cor(foxes$area.s, foxes$groupsize.s)
+```
+```{r}
+cor(foxes$area.s, foxes$avgfood.s)
+```
+```{r}
+cor(foxes$groupsize.s, foxes$avgfood.s)
+```
