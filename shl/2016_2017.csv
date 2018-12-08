@@ -1,0 +1,365 @@
+DATUM,HEMMA,BORTA,HS,-,VS,DEC,PERIOD,ARENA,ATT
+2017-03-09,HV71,Färjestad,3,-,2,Reg,"1-1, 2-1, 0-0",Kinnarps Arena,6951
+2017-03-09,Växjö,Malmö,4,-,5,Reg,"1-2, 2-2, 1-1",Vida Arena,4582
+2017-03-09,Karlskrona,Örebro,4,-,0,Reg,"0-0, 3-0, 1-0",ABB Arena Karlskrona,4689
+2017-03-09,Luleå,Rögle,4,-,1,Reg,"2-0, 2-0, 0-1",Coop Norrbotten Arena,5045
+2017-03-09,Skellefteå,Djurgården,1,-,2,OT,"0-1, 0-0, 1-0, 0-1",Skellefteå Kraft Arena,4391
+2017-03-09,Leksand,Brynäs,1,-,2,Reg,"0-2, 1-0, 0-0",Tegera Arena,5578
+2017-03-09,Linköping,Frölunda,2,-,4,Reg,"1-0, 0-1, 1-3",Saab Arena,8001
+2017-03-07,Skellefteå,Frölunda,2,-,1,Reg,"1-0, 0-0, 1-1",Skellefteå Kraft Arena,4586
+2017-03-07,Leksand,Djurgården,0,-,5,Reg,"0-3, 0-1, 0-1",Tegera Arena,4408
+2017-03-07,Brynäs,Karlskrona,5,-,2,Reg,"3-1, 1-0, 1-1",Gavlerinken Arena,4143
+2017-03-07,Rögle,Örebro,5,-,1,Reg,"3-0, 0-0, 2-1",Lindab Arena,3399
+2017-03-07,Växjö,Linköping,2,-,3,Reg,"0-0, 2-1, 0-2",Vida Arena,4354
+2017-03-07,HV71,Luleå,6,-,0,Reg,"0-0, 2-0, 4-0",Kinnarps Arena,5917
+2017-03-07,Malmö,Färjestad,2,-,5,Reg,"0-1, 2-1, 0-3",Malmö Arena,5940
+2017-03-05,Linköping,Brynäs,3,-,0,Reg,"0-0, 1-0, 2-0",Saab Arena,8147
+2017-03-04,Örebro,Växjö,2,-,3,OT,"1-0, 1-0, 0-2, 0-1",Behrn Arena,5500
+2017-03-04,Djurgården,Malmö,4,-,0,Reg,"1-0, 1-0, 2-0",Hovet,7371
+2017-03-04,Luleå,Leksand,5,-,2,Reg,"0-0, 2-0, 3-2",Coop Norrbotten Arena,4939
+2017-03-04,Färjestad,HV71,1,-,0,Reg,"0-0, 1-0, 0-0",Löfbergs Arena,8087
+2017-03-04,Karlskrona,Skellefteå,6,-,1,Reg,"3-0, 1-0, 2-1",ABB Arena Karlskrona,3852
+2017-03-04,Frölunda,Rögle,3,-,1,Reg,"2-0, 1-1, 0-0",Scandinavium,10560
+2017-03-03,Växjö,Örebro,7,-,4,Reg,"1-1, 3-1, 3-2",Vida Arena,5013
+2017-03-03,Malmö,Djurgården,2,-,3,OT,"0-0, 0-1, 2-1, 0-1",Malmö Arena,6239
+2017-03-02,Brynäs,Frölunda,2,-,3,OT,"1-1, 1-1, 0-0, 0-1",Gavlerinken Arena,5232
+2017-03-02,Rögle,Leksand,4,-,1,Reg,"1-0, 1-1, 2-0",Lindab Arena,4622
+2017-03-02,Färjestad,Luleå,5,-,0,Reg,"1-0, 2-0, 2-0",Löfbergs Arena,6908
+2017-03-02,Karlskrona,HV71,2,-,5,Reg,"0-2, 1-0, 1-3",ABB Arena Karlskrona,3438
+2017-03-02,Skellefteå,Linköping,3,-,1,Reg,"0-0, 1-0, 2-1",Skellefteå Kraft Arena,4241
+2017-03-01,Örebro,Malmö,2,-,1,Reg,"0-0, 1-1, 1-0",Behrn Arena,5062
+2017-03-01,Djurgården,Växjö,2,-,1,SO,"1-1, 0-0, 0-0, 0-0, 1-0",Hovet,6233
+2017-02-28,Luleå,Rögle,3,-,0,Reg,"0-0, 1-0, 2-0",Coop Norrbotten Arena,4338
+2017-02-28,Skellefteå,Färjestad,0,-,3,Reg,"0-0, 0-2, 0-1",Skellefteå Kraft Arena,5111
+2017-02-28,Leksand,Karlskrona,1,-,4,Reg,"0-2, 1-2, 0-0",Tegera Arena,5263
+2017-02-28,HV71,Brynäs,3,-,0,Reg,"1-0, 1-0, 1-0",Kinnarps Arena,6511
+2017-02-28,Frölunda,Linköping,3,-,4,SO,"0-1, 0-2, 3-0, 0-0, 0-1",Scandinavium,8622
+2017-02-25,Leksand,Frölunda,4,-,5,OT,"1-1, 0-2, 3-1, 0-1",Tegera Arena,6769
+2017-02-25,Växjö,Brynäs,1,-,4,Reg,"0-1, 0-1, 1-2",Vida Arena,5652
+2017-02-25,Djurgården,Örebro,2,-,0,Reg,"0-0, 1-0, 1-0",Hovet,6589
+2017-02-25,Malmö,Rögle,4,-,0,Reg,"0-0, 2-0, 2-0",Malmö Arena,9303
+2017-02-25,Färjestad,Linköping,1,-,5,Reg,"0-1, 0-1, 1-3",Löfbergs Arena,7470
+2017-02-25,Karlskrona,Luleå,3,-,1,Reg,"1-0, 1-1, 1-0",ABB Arena Karlskrona,3449
+2017-02-24,HV71,Skellefteå,5,-,2,Reg,"1-1, 3-0, 1-1",Kinnarps Arena,6884
+2017-02-24,Frölunda,Leksand,1,-,5,Reg,"0-1, 0-1, 1-3",Frölundaborgs Isstadion,5507
+2017-02-23,Luleå,Djurgården,1,-,2,OT,"0-1, 0-0, 1-0, 0-1",Coop Norrbotten Arena,4868
+2017-02-23,Brynäs,Rögle,4,-,1,Reg,"1-0, 2-1, 1-0",Gavlerinken Arena,4510
+2017-02-23,Färjestad,Karlskrona,2,-,0,Reg,"1-0, 0-0, 1-0",Löfbergs Arena,5360
+2017-02-23,Linköping,Örebro,5,-,1,Reg,"3-1, 1-0, 1-0",Saab Arena,5226
+2017-02-23,Malmö,Växjö,4,-,3,SO,"2-0, 0-0, 1-3, 0-0, 1-0",Malmö Arena,6043
+2017-02-22,Leksand,Skellefteå,1,-,3,Reg,"1-2, 0-0, 0-1",Tegera Arena,4309
+2017-02-22,HV71,Frölunda,2,-,1,OT,"0-0, 0-0, 1-1, 1-0",Kinnarps Arena,6818
+2017-02-21,Örebro,Brynäs,3,-,6,Reg,"0-3, 2-2, 1-1",Behrn Arena,5309
+2017-02-21,Djurgården,Färjestad,0,-,2,Reg,"0-0, 0-2, 0-0",Hovet,6576
+2017-02-21,Rögle,Linköping,3,-,2,SO,"2-0, 0-1, 0-1, 0-0, 1-0",Lindab Arena,3351
+2017-02-21,Växjö,Luleå,3,-,2,OT,"0-0, 0-2, 2-0, 1-0",Vida Arena,4748
+2017-02-21,Karlskrona,Malmö,1,-,3,Reg,"1-1, 0-1, 0-1",ABB Arena Karlskrona,3683
+2017-02-18,Örebro,HV71,0,-,3,Reg,"0-0, 0-0, 0-3",Behrn Arena,5500
+2017-02-18,Rögle,Färjestad,2,-,1,Reg,"1-0, 1-1, 0-0",Lindab Arena,3811
+2017-02-18,Linköping,Karlskrona,3,-,2,Reg,"0-0, 1-1, 2-1",Saab Arena,6089
+2017-02-18,Leksand,Växjö,0,-,6,Reg,"0-3, 0-1, 0-2",Tegera Arena,5175
+2017-02-18,Luleå,Frölunda,4,-,2,Reg,"0-0, 3-2, 1-0",Coop Norrbotten Arena,5540
+2017-02-18,Skellefteå,Djurgården,3,-,2,Reg,"0-0, 1-1, 2-1",Skellefteå Kraft Arena,5380
+2017-02-18,Malmö,Brynäs,2,-,3,Reg,"0-0, 2-3, 0-0",Malmö Arena,6905
+2017-02-17,Färjestad,Rögle,4,-,5,Reg,"1-0, 1-2, 2-3",Löfbergs Arena,6164
+2017-02-17,Karlskrona,Linköping,3,-,1,Reg,"1-0, 0-0, 2-1",ABB Arena Karlskrona,3349
+2017-02-16,Luleå,Örebro,2,-,1,Reg,"0-1, 2-0, 0-0",Coop Norrbotten Arena,4473
+2017-02-16,Skellefteå,Växjö,4,-,5,OT,"1-1, 1-2, 2-1, 0-1",Skellefteå Kraft Arena,4342
+2017-02-16,Brynäs,Leksand,4,-,0,Reg,"3-0, 1-0, 0-0",Gavlerinken Arena,7909
+2017-02-16,HV71,Malmö,3,-,6,Reg,"2-1, 0-2, 1-3",Kinnarps Arena,6179
+2017-02-16,Frölunda,Djurgården,2,-,1,OT,"1-1, 0-0, 0-0, 1-0",Scandinavium,9340
+2017-02-15,Rögle,Karlskrona,4,-,1,Reg,"0-0, 1-1, 3-0",Lindab Arena,3224
+2017-02-14,Leksand,HV71,2,-,1,Reg,"1-0, 1-0, 0-1",Tegera Arena,4301
+2017-02-14,Örebro,Skellefteå,1,-,2,OT,"1-0, 0-1, 0-0, 0-1",Behrn Arena,5092
+2017-02-14,Djurgården,Brynäs,5,-,6,OT,"2-1, 2-3, 1-1, 0-1",Hovet,6013
+2017-02-14,Linköping,Luleå,2,-,0,Reg,"0-0, 2-0, 0-0",Saab Arena,5049
+2017-02-14,Malmö,Frölunda,2,-,3,Reg,"0-0, 2-1, 0-2",Malmö Arena,6218
+2017-02-05,Frölunda,Färjestad,2,-,3,Reg,"0-0, 1-0, 1-3",Scandinavium,10651
+2017-02-04,Brynäs,Luleå,6,-,2,Reg,"2-1, 2-0, 2-1",Gavlerinken Arena,5623
+2017-02-04,Karlskrona,Växjö,0,-,4,Reg,"0-2, 0-0, 0-2",ABB Arena Karlskrona,4167
+2017-02-04,Malmö,Skellefteå,1,-,4,Reg,"1-2, 0-1, 0-1",Malmö Arena,6374
+2017-02-04,Leksand,Örebro,1,-,2,Reg,"0-0, 1-2, 0-0",Tegera Arena,7650
+2017-02-04,Djurgården,Rögle,1,-,2,OT,"0-1, 1-0, 0-0, 0-1",Hovet,7539
+2017-02-04,HV71,Linköping,2,-,3,SO,"0-0, 1-0, 1-2, 0-0, 0-1",Kinnarps Arena,6905
+2017-02-03,Skellefteå,Malmö,0,-,4,Reg,"0-1, 0-1, 0-2",Skellefteå Kraft Arena,4768
+2017-02-02,Växjö,Frölunda,3,-,2,SO,"1-1, 0-1, 1-0, 0-0, 1-0",Vida Arena,5321
+2017-02-02,Färjestad,Leksand,5,-,2,Reg,"1-1, 2-0, 2-1",Löfbergs Arena,6411
+2017-02-02,Linköping,Djurgården,4,-,1,Reg,"1-0, 2-1, 1-0",Saab Arena,5503
+2017-02-02,HV71,Rögle,7,-,0,Reg,"3-0, 2-0, 2-0",Kinnarps Arena,5797
+2017-02-02,Karlskrona,Örebro,2,-,3,OT,"0-1, 0-1, 2-0, 0-1",ABB Arena Karlskrona,3378
+2017-02-02,Luleå,Brynäs,4,-,5,SO,"0-1, 3-0, 1-3, 0-0, 0-1",Coop Norrbotten Arena,4417
+2017-01-31,Leksand,Linköping,2,-,5,Reg,"1-2, 1-1, 0-2",Tegera Arena,4523
+2017-01-31,Örebro,Färjestad,0,-,1,Reg,"0-0, 0-0, 0-1",Behrn Arena,5500
+2017-01-31,Djurgården,HV71,1,-,2,Reg,"0-0, 0-2, 1-0",Hovet,5522
+2017-01-31,Rögle,Växjö,3,-,4,Reg,"3-1, 0-1, 0-2",Lindab Arena,3149
+2017-01-31,Malmö,Luleå,5,-,1,Reg,"0-1, 2-0, 3-0",Malmö Arena,5763
+2017-01-31,Brynäs,Skellefteå,2,-,6,Reg,"1-1, 1-2, 0-3",Gavlerinken Arena,4196
+2017-01-28,Luleå,Växjö,4,-,3,SO,"1-1, 2-0, 0-2, 0-0, 1-0",Coop Norrbotten Arena,4631
+2017-01-28,Leksand,HV71,1,-,2,Reg,"0-0, 1-1, 0-1",Tegera Arena,6884
+2017-01-28,Brynäs,Malmö,2,-,4,Reg,"0-2, 0-0, 2-2",Gavlerinken Arena,5336
+2017-01-28,Rögle,Frölunda,3,-,4,Reg,"0-1, 2-1, 1-2",Lindab Arena,3803
+2017-01-28,Örebro,Djurgården,3,-,2,OT,"0-1, 0-1, 2-0, 1-0",Behrn Arena,5500
+2017-01-28,Färjestad,Karlskrona,4,-,3,Reg,"2-3, 1-0, 1-0",Löfbergs Arena,7550
+2017-01-27,HV71,Leksand,3,-,1,Reg,"2-1, 0-0, 1-0",Kinnarps Arena,7000
+2017-01-26,Örebro,Luleå,2,-,1,Reg,"1-0, 1-0, 0-1",Behrn Arena,5108
+2017-01-26,Växjö,Rögle,4,-,2,Reg,"0-1, 2-0, 2-1",Vida Arena,4257
+2017-01-26,Djurgården,Färjestad,1,-,3,Reg,"0-0, 1-1, 0-2",Hovet,6664
+2017-01-26,Karlskrona,Malmö,0,-,2,Reg,"0-1, 0-1, 0-0",ABB Arena Karlskrona,3803
+2017-01-26,Frölunda,Brynäs,2,-,4,Reg,"1-0, 1-1, 0-3",Scandinavium,9443
+2017-01-26,Linköping,Skellefteå,3,-,0,Reg,"1-0, 1-0, 1-0",Saab Arena,5069
+2017-01-24,Rögle,Djurgården,1,-,3,Reg,"0-0, 0-2, 1-1",Lindab Arena,3309
+2017-01-24,Skellefteå,HV71,3,-,2,Reg,"0-2, 1-0, 2-0",Skellefteå Kraft Arena,4423
+2017-01-24,Frölunda,Karlskrona,4,-,3,Reg,"0-2, 1-0, 3-1",Scandinavium,6638
+2017-01-21,Växjö,Karlskrona,4,-,0,Reg,"0-0, 3-0, 1-0",Vida Arena,5750
+2017-01-21,HV71,Örebro,5,-,1,Reg,"0-0, 3-1, 2-0",Kinnarps Arena,6434
+2017-01-21,Luleå,Färjestad,5,-,4,OT,"1-1, 2-1, 1-2, 1-0",Coop Norrbotten Arena,5721
+2017-01-21,Skellefteå,Brynäs,3,-,0,Reg,"1-0, 1-0, 1-0",Skellefteå Kraft Arena,5511
+2017-01-21,Djurgården,Leksand,4,-,3,Reg,"2-0, 1-2, 1-1",Hovet,8094
+2017-01-21,Linköping,Rögle,2,-,1,Reg,"1-1, 1-0, 0-0",Saab Arena,6792
+2017-01-20,Karlskrona,Växjö,1,-,4,Reg,"1-0, 0-3, 0-1",ABB Arena Karlskrona,4118
+2017-01-19,Leksand,Linköping,5,-,1,Reg,"1-0, 2-1, 2-0",Tegera Arena,4460
+2017-01-19,Brynäs,Örebro,3,-,4,OT,"2-0, 1-2, 0-1, 0-1",Gavlerinken Arena,3602
+2017-01-19,Djurgården,HV71,2,-,3,SO,"0-1, 0-1, 2-0, 0-0, 0-1",Hovet,6505
+2017-01-19,Rögle,Malmö,1,-,2,OT,"0-1, 1-0, 0-0, 0-1",Lindab Arena,5024
+2017-01-19,Frölunda,Skellefteå,2,-,3,Reg,"0-1, 1-1, 1-1",Scandinavium,9573
+2017-01-19,Färjestad,Luleå,3,-,2,OT,"1-1, 1-1, 0-0, 1-0",Löfbergs Arena,6874
+2017-01-14,Örebro,Linköping,0,-,1,Reg,"0-1, 0-0, 0-0",Behrn Arena,5212
+2017-01-14,Växjö,Leksand,4,-,1,Reg,"1-1, 1-0, 2-0",Vida Arena,5069
+2017-01-14,HV71,Rögle,5,-,3,Reg,"0-1, 5-1, 0-1",Kinnarps Arena,6586
+2017-01-14,Skellefteå,Karlskrona,3,-,2,Reg,"2-1, 0-1, 1-0",Skellefteå Kraft Arena,4273
+2017-01-14,Brynäs,Djurgården,0,-,3,Reg,"0-0, 0-2, 0-1",Gavlerinken Arena,7604
+2017-01-14,Malmö,Luleå,1,-,2,OT,"1-0, 0-1, 0-0, 0-1",Malmö Arena,10612
+2017-01-13,Rögle,HV71,1,-,3,Reg,"0-1, 1-1, 0-1",Lindab Arena,3680
+2017-01-12,Luleå,Skellefteå,3,-,4,SO,"0-0, 2-1, 1-2, 0-0, 0-1",Coop Norrbotten Arena,5668
+2017-01-12,Örebro,Leksand,4,-,3,SO,"0-1, 3-2, 0-0, 0-0, 1-0",Behrn Arena,5500
+2017-01-12,Växjö,Frölunda,4,-,1,Reg,"2-1, 1-0, 1-0",Vida Arena,4624
+2017-01-12,Linköping,Karlskrona,4,-,3,SO,"2-0, 1-2, 0-1, 0-0, 1-0",Saab Arena,4593
+2017-01-12,Malmö,Färjestad,2,-,3,Reg,"2-1, 0-0, 0-2",Malmö Arena,6120
+2017-01-12,Djurgården,Brynäs,4,-,3,SO,"2-1, 1-0, 0-2, 0-0, 1-0",Hovet,6693
+2017-01-07,Leksand,Malmö,4,-,3,Reg,"1-1, 2-0, 1-2",Tegera Arena,6131
+2017-01-07,Frölunda,Örebro,2,-,1,OT,"0-0, 1-0, 0-1, 1-0",Scandinavium,10520
+2017-01-07,Brynäs,Växjö,1,-,4,Reg,"0-1, 1-1, 0-2",Gavlerinken Arena,5123
+2017-01-07,Rögle,Djurgården,1,-,3,Reg,"1-2, 0-1, 0-0",Lindab Arena,4145
+2017-01-07,Färjestad,Skellefteå,1,-,2,Reg,"1-0, 0-0, 0-2",Löfbergs Arena,6195
+2017-01-07,Linköping,Luleå,5,-,2,Reg,"2-1, 2-0, 1-1",Saab Arena,7232
+2017-01-07,Karlskrona,HV71,2,-,3,Reg,"0-1, 1-2, 1-0",ABB Arena Karlskrona,5004
+2017-01-06,Örebro,Frölunda,1,-,3,Reg,"1-0, 0-2, 0-1",Behrn Arena,5500
+2017-01-06,Malmö,Leksand,3,-,1,Reg,"2-0, 1-1, 0-0",Malmö Arena,8028
+2017-01-05,Luleå,Karlskrona,3,-,2,SO,"0-1, 1-1, 1-0, 0-0, 1-0",Coop Norrbotten Arena,4891
+2017-01-05,Skellefteå,Rögle,3,-,1,Reg,"1-0, 0-1, 2-0",Skellefteå Kraft Arena,4438
+2017-01-05,Brynäs,Färjestad,1,-,0,Reg,"1-0, 0-0, 0-0",Gavlerinken Arena,5011
+2017-01-05,Djurgården,Linköping,0,-,4,Reg,"0-0, 0-0, 0-4",Hovet,8094
+2017-01-05,HV71,Växjö,1,-,2,OT,"0-0, 1-0, 0-1, 0-1",Kinnarps Arena,6837
+2017-01-03,Linköping,Skellefteå,5,-,2,Reg,"2-0, 1-1, 2-1",Saab Arena,4740
+2017-01-03,Frölunda,Färjestad,5,-,0,Reg,"3-0, 1-0, 1-0",Scandinavium,10817
+2016-12-30,Luleå,Brynäs,0,-,4,Reg,"0-3, 0-0, 0-1",Coop Norrbotten Arena,5783
+2016-12-30,Leksand,Färjestad,2,-,1,Reg,"0-0, 0-0, 2-1",Tegera Arena,7650
+2016-12-30,Djurgården,Frölunda,3,-,2,Reg,"1-1, 2-0, 0-1",Ericsson Globe,13189
+2016-12-30,Växjö,Skellefteå,5,-,2,Reg,"2-0, 3-1, 0-1",Vida Arena,5435
+2016-12-30,Linköping,HV71,0,-,1,OT,"0-0, 0-0, 0-0, 0-1",Saab Arena,7946
+2016-12-30,Karlskrona,Rögle,3,-,2,OT,"1-0, 0-1, 1-1, 1-0",ABB Arena Karlskrona,4182
+2016-12-30,Malmö,Örebro,6,-,0,Reg,"2-0, 3-0, 1-0",Malmö Arena,6092
+2016-12-28,Skellefteå,Leksand,4,-,3,OT,"2-1, 0-1, 1-1, 1-0",Skellefteå Kraft Arena,5622
+2016-12-28,Örebro,Växjö,2,-,3,Reg,"1-2, 0-0, 1-1",Behrn Arena,5136
+2016-12-28,Rögle,Brynäs,1,-,3,Reg,"1-1, 0-0, 0-2",Lindab Arena,5051
+2016-12-28,Färjestad,Linköping,3,-,0,Reg,"0-0, 1-0, 2-0",Löfbergs Arena,6128
+2016-12-28,HV71,Malmö,5,-,3,Reg,"3-2, 1-1, 1-0",Kinnarps Arena,6925
+2016-12-28,Karlskrona,Djurgården,3,-,1,Reg,"0-0, 2-1, 1-0",ABB Arena Karlskrona,4182
+2016-12-28,Frölunda,Luleå,3,-,1,Reg,"0-0, 2-0, 1-1",Scandinavium,12044
+2016-12-26,Örebro,Skellefteå,3,-,2,SO,"0-1, 2-1, 0-0, 0-0, 1-0",Behrn Arena,5145
+2016-12-26,Brynäs,HV71,2,-,1,OT,"1-0, 0-0, 0-1, 1-0",Gavlerinken Arena,6316
+2016-12-26,Leksand,Luleå,0,-,3,Reg,"0-0, 0-3, 0-0",Tegera Arena,7650
+2016-12-26,Djurgården,Växjö,2,-,3,SO,"0-1, 1-1, 1-0, 0-0, 0-1",Ericsson Globe,10078
+2016-12-26,Färjestad,Rögle,3,-,4,SO,"1-0, 1-3, 1-0, 0-0, 0-1",Löfbergs Arena,7280
+2016-12-26,Malmö,Linköping,1,-,3,Reg,"0-1, 1-1, 0-1",Malmö Arena,6526
+2016-12-26,Frölunda,Karlskrona,2,-,1,Reg,"0-1, 1-0, 1-0",Scandinavium,8714
+2016-12-21,Skellefteå,Malmö,3,-,0,Reg,"1-0, 0-0, 2-0",Skellefteå Kraft Arena,4578
+2016-12-20,Brynäs,Karlskrona,3,-,5,Reg,"2-0, 0-1, 1-4",Gavlerinken Arena,4284
+2016-12-20,Färjestad,Örebro,6,-,4,Reg,"2-0, 2-2, 2-2",Löfbergs Arena,5037
+2016-12-20,Linköping,Växjö,1,-,4,Reg,"0-2, 1-0, 0-2",Saab Arena,4338
+2016-12-20,Frölunda,HV71,2,-,1,Reg,"2-0, 0-0, 0-1",Scandinavium,9026
+2016-12-11,Malmö,Skellefteå,0,-,3,Reg,"0-2, 0-1, 0-0",Malmö Arena,5611
+2016-12-10,Örebro,Rögle,2,-,3,Reg,"0-1, 0-2, 2-0",Behrn Arena,5062
+2016-12-10,Brynäs,Färjestad,6,-,2,Reg,"2-0, 2-1, 2-1",Gavlerinken Arena,6712
+2016-12-10,Djurgården,Leksand,3,-,1,Reg,"1-1, 1-0, 1-0",Hovet,8100
+2016-12-10,HV71,Linköping,2,-,3,Reg,"2-0, 0-2, 0-1",Kinnarps Arena,7000
+2016-12-10,Karlskrona,Luleå,0,-,4,Reg,"0-3, 0-0, 0-1",ABB Arena Karlskrona,4006
+2016-12-10,Frölunda,Växjö,8,-,5,Reg,"1-2, 5-2, 2-1",Frölundaborgs Isstadion,4357
+2016-12-09,Rögle,Örebro,5,-,0,Reg,"2-0, 0-0, 3-0",Lindab Arena,3251
+2016-12-09,Färjestad,Brynäs,3,-,2,OT,"1-2, 1-0, 0-0, 1-0",Löfbergs Arena,5724
+2016-12-08,Skellefteå,Luleå,1,-,3,Reg,"1-0, 0-1, 0-2",Skellefteå Kraft Arena,5801
+2016-12-08,Leksand,Frölunda,4,-,0,Reg,"1-0, 2-0, 1-0",Tegera Arena,4851
+2016-12-08,Växjö,Djurgården,4,-,1,Reg,"1-1, 2-0, 1-0",Vida Arena,4056
+2016-12-08,Karlskrona,Linköping,3,-,1,Reg,"2-0, 0-1, 1-0",ABB Arena Karlskrona,3255
+2016-12-08,Malmö,HV71,4,-,0,Reg,"1-0, 2-0, 1-0",Malmö Arena,6161
+2016-12-06,Rögle,Leksand,2,-,3,Reg,"1-2, 0-1, 1-0",Lindab Arena,3906
+2016-12-05,Malmö,Linköping,2,-,3,Reg,"0-0, 1-1, 1-2",Malmö Arena,5325
+2016-12-04,Leksand,Rögle,3,-,2,Reg,"0-1, 1-0, 2-1",Tegera Arena,5003
+2016-12-03,Luleå,Frölunda,0,-,1,Reg,"0-1, 0-0, 0-0",Coop Norrbotten Arena,4847
+2016-12-03,Örebro,HV71,0,-,3,Reg,"0-1, 0-0, 0-2",Behrn Arena,5267
+2016-12-03,Skellefteå,Karlskrona,2,-,0,Reg,"1-0, 0-0, 1-0",Skellefteå Kraft Arena,4539
+2016-12-03,Brynäs,Växjö,2,-,0,Reg,"0-0, 1-0, 1-0",Gavlerinken Arena,6533
+2016-12-03,Färjestad,Djurgården,2,-,1,OT,"1-1, 0-0, 0-0, 1-0",Löfbergs Arena,6070
+2016-12-02,Frölunda,Luleå,4,-,0,Reg,"1-0, 0-0, 3-0",Scandinavium,8971
+2016-12-01,Örebro,Leksand,4,-,3,Reg,"1-1, 1-1, 2-1",Behrn Arena,5500
+2016-12-01,Brynäs,Skellefteå,2,-,3,Reg,"1-1, 1-1, 0-1",Gavlerinken Arena,4910
+2016-12-01,Växjö,Rögle,2,-,0,Reg,"0-0, 1-0, 1-0",Vida Arena,4764
+2016-12-01,HV71,Djurgården,2,-,1,SO,"1-0, 0-1, 0-0, 0-0, 1-0",Kinnarps Arena,5842
+2016-12-01,Karlskrona,Färjestad,4,-,1,Reg,"1-0, 1-1, 2-0",ABB Arena Karlskrona,3383
+2016-12-01,Linköping,Malmö,2,-,0,Reg,"0-0, 1-0, 1-0",Saab Arena,4586
+2016-11-29,Malmö,HV71,4,-,3,Reg,"1-1, 1-0, 2-2",Malmö Arena,6503
+2016-11-29,Luleå,Djurgården,2,-,1,SO,"0-1, 0-0, 1-0, 0-0, 1-0",Coop Norrbotten Arena,4300
+2016-11-29,Växjö,Färjestad,2,-,3,SO,"2-0, 0-1, 0-1, 0-0, 0-1",Vida Arena,4408
+2016-11-27,Djurgården,Karlskrona,2,-,1,Reg,"0-1, 0-0, 2-0",Hovet,5978
+2016-11-27,Leksand,Malmö,1,-,0,SO,"0-0, 0-0, 0-0, 0-0, 1-0",Tegera Arena,5226
+2016-11-26,HV71,Luleå,2,-,1,SO,"0-0, 0-1, 1-0, 0-0, 1-0",Kinnarps Arena,6319
+2016-11-26,Skellefteå,Örebro,5,-,4,Reg,"1-1, 2-2, 2-1",Skellefteå Kraft Arena,4586
+2016-11-26,Rögle,Brynäs,2,-,4,Reg,"0-0, 2-1, 0-3",Lindab Arena,3842
+2016-11-26,Färjestad,Växjö,1,-,3,Reg,"0-1, 0-1, 1-1",Löfbergs Arena,5562
+2016-11-26,Linköping,Frölunda,3,-,0,Reg,"1-0, 1-0, 1-0",Saab Arena,7070
+2016-11-25,Luleå,HV71,2,-,3,Reg,"1-3, 1-0, 0-0",Coop Norrbotten Arena,4595
+2016-11-25,Karlskrona,Djurgården,3,-,7,Reg,"1-3, 1-1, 1-3",ABB Arena Karlskrona,3899
+2016-11-24,Skellefteå,Leksand,4,-,1,Reg,"2-0, 1-1, 1-0",Skellefteå Kraft Arena,4085
+2016-11-24,Örebro,Färjestad,3,-,1,Reg,"1-0, 0-0, 2-1",Behrn Arena,5500
+2016-11-24,Rögle,Frölunda,2,-,4,Reg,"0-1, 1-1, 1-2",Lindab Arena,3541
+2016-11-24,Växjö,Linköping,4,-,1,Reg,"1-1, 1-0, 2-0",Vida Arena,4230
+2016-11-24,Malmö,Brynäs,2,-,1,Reg,"0-0, 0-1, 2-0",Malmö Arena,6170
+2016-11-23,HV71,Karlskrona,2,-,0,Reg,"0-0, 1-0, 1-0",Kinnarps Arena,6572
+2016-11-22,Leksand,Växjö,3,-,1,Reg,"0-0, 1-1, 2-0",Tegera Arena,4051
+2016-11-22,Brynäs,Örebro,4,-,3,OT,"0-0, 2-2, 1-1, 1-0",Gavlerinken Arena,4522
+2016-11-22,Färjestad,Skellefteå,5,-,3,Reg,"3-0, 1-0, 1-3",Löfbergs Arena,4546
+2016-11-22,Linköping,Rögle,5,-,2,Reg,"2-2, 0-0, 3-0",Saab Arena,4698
+2016-11-22,Frölunda,Malmö,2,-,1,SO,"0-0, 0-0, 1-1, 0-0, 1-0",Scandinavium,9828
+2016-11-22,Djurgården,Luleå,3,-,2,SO,"1-1, 1-1, 0-0, 0-0, 1-0",Hovet,6240
+2016-11-19,Luleå,Örebro,2,-,0,Reg,"0-0, 1-0, 1-0",Coop Norrbotten Arena,4805
+2016-11-19,Växjö,Skellefteå,4,-,0,Reg,"0-0, 0-0, 4-0",Vida Arena,4412
+2016-11-19,Karlskrona,Leksand,0,-,2,Reg,"0-0, 0-1, 0-1",ABB Arena Karlskrona,4352
+2016-11-19,Rögle,Färjestad,5,-,3,Reg,"3-0, 0-2, 2-1",Lindab Arena,3648
+2016-11-19,Malmö,Djurgården,0,-,1,SO,"0-0, 0-0, 0-0, 0-0, 0-1",Malmö Arena,6786
+2016-11-19,Frölunda,HV71,2,-,1,Reg,"0-0, 2-0, 0-1",Scandinavium,12044
+2016-11-18,Leksand,Karlskrona,0,-,1,Reg,"0-0, 0-0, 0-1",Tegera Arena,5472
+2016-11-18,Brynäs,Linköping,4,-,1,Reg,"3-0, 1-1, 0-0",Gavlerinken Arena,4576
+2016-11-17,Skellefteå,HV71,1,-,0,OT,"0-0, 0-0, 0-0, 1-0",Skellefteå Kraft Arena,4227
+2016-11-17,Örebro,Djurgården,3,-,0,Reg,"0-0, 1-0, 2-0",Behrn Arena,5225
+2016-11-17,Rögle,Luleå,3,-,5,Reg,"0-0, 1-2, 2-3",Lindab Arena,3226
+2016-11-17,Växjö,Malmö,2,-,1,Reg,"1-1, 1-0, 0-0",Vida Arena,4123
+2016-11-17,Färjestad,Frölunda,3,-,4,OT,"1-0, 2-3, 0-0, 0-1",Löfbergs Arena,5842
+2016-11-17,Linköping,Brynäs,2,-,1,Reg,"1-0, 1-0, 0-1",Saab Arena,5466
+2016-11-15,Luleå,Växjö,4,-,2,Reg,"0-1, 3-1, 1-0",Coop Norrbotten Arena,3889
+2016-11-15,Djurgården,Skellefteå,4,-,2,Reg,"0-0, 1-2, 3-0",Hovet,5869
+2016-11-15,HV71,Färjestad,3,-,1,Reg,"1-0, 1-0, 1-1",Kinnarps Arena,6213
+2016-11-15,Frölunda,Örebro,5,-,0,Reg,"3-0, 1-0, 1-0",Scandinavium,7956
+2016-11-15,Linköping,Leksand,6,-,1,Reg,"2-0, 2-1, 2-0",Saab Arena,5008
+2016-11-15,Karlskrona,Brynäs,1,-,2,Reg,"0-2, 1-0, 0-0",ABB Arena Karlskrona,3799
+2016-11-14,Malmö,Rögle,2,-,1,Reg,"0-0, 0-0, 2-1",Malmö Arena,10628
+2016-11-12,Skellefteå,Rögle,4,-,1,Reg,"1-0, 2-1, 1-0",Skellefteå Kraft Arena,4304
+2016-11-12,Örebro,Linköping,3,-,4,OT,"2-0, 0-2, 1-1, 0-1",Behrn Arena,5500
+2016-11-12,Brynäs,Djurgården,4,-,0,Reg,"1-0, 0-0, 3-0",Gavlerinken Arena,7158
+2016-11-12,Växjö,HV71,3,-,4,SO,"1-0, 2-1, 0-2, 0-0, 0-1",Vida Arena,5663
+2016-11-12,Leksand,Luleå,4,-,0,Reg,"1-0, 2-0, 1-0",Tegera Arena,5843
+2016-11-12,Färjestad,Malmö,1,-,0,OT,"0-0, 0-0, 0-0, 1-0",Löfbergs Arena,5832
+2016-11-12,Karlskrona,Frölunda,0,-,3,Reg,"0-1, 0-2, 0-0",ABB Arena Karlskrona,4647
+2016-11-11,Rögle,Skellefteå,0,-,3,Reg,"0-2, 0-1, 0-0",Lindab Arena,3511
+2016-11-11,HV71,Växjö,2,-,4,Reg,"0-2, 2-1, 0-1",Kinnarps Arena,6702
+2016-11-10,Luleå,Malmö,0,-,5,Reg,"0-1, 0-1, 0-3",Coop Norrbotten Arena,4277
+2016-11-10,Leksand,Brynäs,1,-,4,Reg,"0-1, 1-1, 0-2",Tegera Arena,7478
+2016-11-10,Örebro,Karlskrona,1,-,0,SO,"0-0, 0-0, 0-0, 0-0, 1-0",Behrn Arena,5021
+2016-11-10,Djurgården,Frölunda,4,-,3,Reg,"2-0, 0-2, 2-1",Hovet,5841
+2016-11-10,Linköping,Färjestad,1,-,2,SO,"0-1, 1-0, 0-0, 0-0, 0-1",Saab Arena,4745
+2016-10-30,Leksand,Färjestad,1,-,2,Reg,"0-0, 1-2, 0-0",Tegera Arena,6372
+2016-10-29,Växjö,Örebro,4,-,2,Reg,"1-0, 2-1, 1-1",Vida Arena,4108
+2016-10-29,Malmö,Karlskrona,1,-,3,Reg,"1-0, 0-0, 0-3",Malmö Arena,7464
+2016-10-29,Luleå,Linköping,3,-,5,Reg,"1-1, 1-2, 1-2",Coop Norrbotten Arena,5726
+2016-10-29,Färjestad,Leksand,5,-,3,Reg,"1-2, 2-1, 2-0",Löfbergs Arena,8098
+2016-10-29,HV71,Brynäs,4,-,2,Reg,"2-1, 2-1, 0-0",Kinnarps Arena,6723
+2016-10-29,Frölunda,Skellefteå,4,-,2,Reg,"1-0, 2-0, 1-2",Scandinavium,11716
+2016-10-27,Skellefteå,Linköping,4,-,1,Reg,"1-0, 1-0, 2-1",Skellefteå Kraft Arena,4043
+2016-10-27,Örebro,Luleå,3,-,2,Reg,"0-1, 2-1, 1-0",Behrn Arena,5165
+2016-10-27,Djurgården,Rögle,0,-,4,Reg,"0-0, 0-3, 0-1",Hovet,5304
+2016-10-27,Karlskrona,Frölunda,2,-,1,Reg,"0-1, 2-0, 0-0",ABB Arena Karlskrona,4121
+2016-10-27,Malmö,Växjö,0,-,3,Reg,"0-1, 0-2, 0-0",Malmö Arena,6529
+2016-10-27,Brynäs,HV71,5,-,3,Reg,"1-2, 3-1, 1-0",Gavlerinken Arena,5372
+2016-10-25,HV71,Leksand,5,-,2,Reg,"1-0, 2-2, 2-0",Kinnarps Arena,6135
+2016-10-25,Luleå,Karlskrona,1,-,2,Reg,"0-0, 1-1, 0-1",Coop Norrbotten Arena,4558
+2016-10-25,Växjö,Djurgården,5,-,3,Reg,"2-1, 1-1, 2-1",Vida Arena,4250
+2016-10-25,Linköping,Örebro,1,-,3,Reg,"0-1, 0-1, 1-1",Saab Arena,4213
+2016-10-25,Frölunda,Malmö,3,-,1,Reg,"1-0, 1-1, 1-0",Scandinavium,8953
+2016-10-25,Färjestad,Brynäs,1,-,5,Reg,"1-0, 0-0, 0-5",Löfbergs Arena,4617
+2016-10-24,Rögle,Skellefteå,3,-,2,Reg,"0-0, 2-1, 1-1",Lindab Arena,3235
+2016-10-23,Luleå,HV71,3,-,1,Reg,"0-0, 1-0, 2-1",Coop Norrbotten Arena,4245
+2016-10-22,Brynäs,Malmö,3,-,5,Reg,"1-1, 2-2, 0-2",Gavlerinken Arena,5084
+2016-10-22,Färjestad,Växjö,4,-,1,Reg,"2-0, 1-1, 1-0",Löfbergs Arena,5886
+2016-10-22,Linköping,Djurgården,2,-,1,Reg,"1-0, 1-0, 0-1",Saab Arena,5984
+2016-10-22,Skellefteå,Frölunda,2,-,3,Reg,"1-0, 0-2, 1-1",Skellefteå Kraft Arena,5109
+2016-10-22,Leksand,Rögle,0,-,2,Reg,"0-1, 0-0, 0-1",Tegera Arena,5567
+2016-10-22,Örebro,Karlskrona,1,-,3,Reg,"0-1, 0-2, 1-0",Behrn Arena,5278
+2016-10-21,Djurgården,Linköping,4,-,5,Reg,"2-0, 1-3, 1-2",Hovet,6334
+2016-10-21,Växjö,Färjestad,1,-,3,Reg,"0-0, 1-2, 0-1",Vida Arena,4669
+2016-10-20,Skellefteå,Örebro,4,-,1,Reg,"0-1, 3-0, 1-0",Skellefteå Kraft Arena,3818
+2016-10-20,Rögle,Luleå,2,-,3,SO,"1-1, 1-0, 0-1, 0-0, 0-1",Lindab Arena,3202
+2016-10-20,Karlskrona,Brynäs,4,-,2,Reg,"1-1, 2-1, 1-0",ABB Arena Karlskrona,3607
+2016-10-20,Frölunda,Leksand,5,-,1,Reg,"1-0, 4-0, 0-1",Scandinavium,8967
+2016-10-19,Färjestad,Djurgården,3,-,2,SO,"1-1, 1-1, 0-0, 0-0, 1-0",Löfbergs Arena,5150
+2016-10-19,Linköping,Växjö,2,-,5,Reg,"1-2, 1-2, 0-1",Saab Arena,4934
+2016-10-18,Luleå,Malmö,4,-,2,Reg,"3-0, 0-1, 1-1",Coop Norrbotten Arena,4793
+2016-10-18,Leksand,Skellefteå,1,-,6,Reg,"0-1, 0-3, 1-2",Tegera Arena,5012
+2016-10-18,Örebro,Frölunda,2,-,4,Reg,"1-2, 0-0, 1-2",Behrn Arena,5426
+2016-10-18,Brynäs,Rögle,4,-,3,Reg,"1-2, 1-1, 2-0",Gavlerinken Arena,3813
+2016-10-18,HV71,Karlskrona,4,-,1,Reg,"1-0, 0-1, 3-0",Kinnarps Arena,6132
+2016-10-15,Luleå,Färjestad,1,-,3,Reg,"1-2, 0-1, 0-0",Coop Norrbotten Arena,4734
+2016-10-15,Karlskrona,Skellefteå,1,-,2,Reg,"0-0, 0-0, 1-2",ABB Arena Karlskrona,4685
+2016-10-15,Djurgården,Örebro,0,-,3,Reg,"0-1, 0-1, 0-1",Hovet,6125
+2016-10-15,Rögle,HV71,1,-,4,Reg,"0-2, 1-1, 0-1",Lindab Arena,3551
+2016-10-15,Växjö,Brynäs,1,-,2,Reg,"0-0, 0-1, 1-1",Vida Arena,4990
+2016-10-15,Frölunda,Linköping,2,-,3,Reg,"0-0, 1-1, 1-2",Scandinavium,9397
+2016-10-13,Skellefteå,Färjestad,0,-,5,Reg,"0-1, 0-1, 0-3",Skellefteå Kraft Arena,5614
+2016-10-13,Brynäs,Leksand,1,-,3,Reg,"0-0, 1-0, 0-3",Gavlerinken Arena,7909
+2016-10-13,Djurgården,Luleå,3,-,4,SO,"1-1, 0-0, 2-2, 0-0, 0-1",Hovet,6103
+2016-10-13,Linköping,Malmö,3,-,5,Reg,"0-2, 3-1, 0-2",Saab Arena,4963
+2016-10-13,HV71,Örebro,3,-,5,Reg,"2-0, 1-4, 0-1",Kinnarps Arena,5913
+2016-10-13,Frölunda,Rögle,2,-,1,Reg,"0-0, 0-0, 2-1",Scandinavium,7785
+2016-10-12,Växjö,Karlskrona,2,-,3,SO,"2-0, 0-2, 0-0, 0-0, 0-1",Vida Arena,4216
+2016-10-08,Skellefteå,Brynäs,1,-,2,Reg,"0-0, 1-2, 0-0",Skellefteå Kraft Arena,4245
+2016-10-08,Örebro,Malmö,5,-,4,Reg,"3-1, 2-1, 0-2",Behrn Arena,5301
+2016-10-08,Rögle,Karlskrona,2,-,4,Reg,"0-1, 1-2, 1-1",Lindab Arena,3891
+2016-10-08,Färjestad,Frölunda,2,-,1,OT,"0-0, 0-0, 1-1, 1-0",Löfbergs Arena,7162
+2016-10-08,HV71,Djurgården,5,-,1,Reg,"2-0, 1-1, 2-0",Kinnarps Arena,6809
+2016-10-07,Karlskrona,Rögle,4,-,1,Reg,"2-1, 1-0, 1-0",ABB Arena Karlskrona,3969
+2016-10-07,Malmö,Örebro,1,-,0,SO,"0-0, 0-0, 0-0, 0-0, 1-0",Malmö Arena,6369
+2016-10-06,Brynäs,Luleå,5,-,2,Reg,"1-1, 1-1, 3-0",Gavlerinken Arena,3917
+2016-10-06,Djurgården,Skellefteå,2,-,1,Reg,"2-0, 0-1, 0-0",Ericsson Globe,7739
+2016-10-06,Färjestad,HV71,1,-,4,Reg,"1-2, 0-0, 0-2",Löfbergs Arena,4756
+2016-10-06,Linköping,Leksand,2,-,1,OT,"0-0, 1-0, 0-1, 1-0",Saab Arena,5170
+2016-10-06,Frölunda,Växjö,3,-,1,Reg,"1-0, 2-0, 0-1",Scandinavium,6463
+2016-10-04,Malmö,Leksand,5,-,1,Reg,"2-0, 2-0, 1-1",Malmö Arena,6995
+2016-10-02,Frölunda,Djurgården,4,-,1,Reg,"0-0, 1-1, 3-0",Scandinavium,6816
+2016-10-01,Leksand,Örebro,2,-,3,OT,"1-0, 1-1, 0-1, 0-1",Tegera Arena,5874
+2016-10-01,Växjö,Luleå,1,-,3,Reg,"0-1, 0-2, 1-0",Vida Arena,5126
+2016-10-01,Brynäs,Linköping,1,-,2,Reg,"1-1, 0-0, 0-1",Gavlerinken Arena,4517
+2016-10-01,HV71,Skellefteå,7,-,1,Reg,"4-0, 0-0, 3-1",Kinnarps Arena,5983
+2016-10-01,Karlskrona,Färjestad,5,-,2,Reg,"1-0, 4-1, 0-1",ABB Arena Karlskrona,4046
+2016-10-01,Rögle,Malmö,6,-,7,Reg,"3-3, 1-3, 2-1",Lindab Arena,5051
+2016-09-29,Luleå,Leksand,5,-,1,Reg,"3-1, 2-0, 0-0",Coop Norrbotten Arena,4468
+2016-09-29,Skellefteå,Växjö,3,-,2,OT,"1-1, 0-0, 1-1, 1-0",Skellefteå Kraft Arena,4009
+2016-09-29,Örebro,Brynäs,3,-,5,Reg,"1-2, 2-2, 0-1",Behrn Arena,5500
+2016-09-29,Rögle,Linköping,3,-,2,OT,"1-2, 0-0, 1-0, 1-0",Lindab Arena,3553
+2016-09-29,Färjestad,Malmö,2,-,4,Reg,"0-4, 2-0, 0-0",Löfbergs Arena,5058
+2016-09-29,HV71,Frölunda,2,-,3,Reg,"1-0, 1-1, 0-2",Kinnarps Arena,6407
+2016-09-28,Djurgården,Karlskrona,0,-,4,Reg,"0-0, 0-4, 0-0",Hovet,5258
+2016-09-27,Växjö,Leksand,4,-,1,Reg,"1-0, 1-1, 2-0",Vida Arena,4108
+2016-09-25,Linköping,Färjestad,3,-,4,OT,"1-0, 2-2, 0-1, 0-1",Saab Arena,7040
+2016-09-24,Skellefteå,Luleå,3,-,2,Reg,"1-0, 1-1, 1-1",Skellefteå Kraft Arena,5800
+2016-09-24,Örebro,Rögle,3,-,4,Reg,"2-1, 1-1, 0-2",Behrn Arena,5420
+2016-09-24,Växjö,HV71,4,-,3,OT,"2-1, 0-2, 1-0, 1-0",Vida Arena,5750
+2016-09-24,Frölunda,Brynäs,3,-,1,Reg,"0-1, 1-0, 2-0",Scandinavium,10046
+2016-09-24,Djurgården,Malmö,1,-,2,Reg,"0-1, 1-1, 0-0",Hovet,7659
+2016-09-24,Karlskrona,Leksand,3,-,1,Reg,"0-0, 2-0, 1-1",ABB Arena Karlskrona,5050
+2016-09-23,Luleå,Skellefteå,1,-,2,SO,"0-0, 1-1, 0-0, 0-0, 0-1",Coop Norrbotten Arena,6300
+2016-09-23,Brynäs,Frölunda,7,-,2,Reg,"1-0, 4-1, 2-1",Gavlerinken Arena,7132
+2016-09-22,Leksand,Djurgården,2,-,5,Reg,"0-1, 2-3, 0-1",Tegera Arena,7650
+2016-09-22,Rögle,Växjö,3,-,5,Reg,"0-1, 3-2, 0-2",Lindab Arena,4556
+2016-09-21,Linköping,HV71,1,-,3,Reg,"0-1, 1-1, 0-1",Saab Arena,5620
+2016-09-21,Malmö,Karlskrona,3,-,0,Reg,"1-0, 1-0, 1-0",Malmö Arena,5274
+2016-09-17,Luleå,Linköping,4,-,0,Reg,"3-0, 0-0, 1-0",Coop Norrbotten Arena,5450
+2016-09-17,Färjestad,Örebro,2,-,1,Reg,"0-1, 1-0, 1-0",Löfbergs Arena,8500
+2016-09-17,Malmö,Frölunda,3,-,2,Reg,"0-0, 3-0, 0-2",Malmö Arena,8170
